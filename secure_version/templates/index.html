@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login (secure)</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="login-box">
+        <h2>Login Page(Secure)</h2>
+        <form method="POST" action="/login">
+            <input type="text" name="username" placeholder="username" required>
+            <input type="password" id="password" name="password" placeholder="password" required>
+            <br>
+            <input type="checkbox" id="showPassword"> Show Password
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
